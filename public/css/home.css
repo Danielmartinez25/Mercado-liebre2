@@ -1,0 +1,109 @@
+/*HEADER*/
+.home__header{
+    background-color: var(--colorAmarillo); 
+}
+.home__header__img{
+    margin-left: 20px;
+    width: 200px;
+}
+
+.home__header__buscar{
+    margin-left: 20px;
+}
+
+.home__header__lupa{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.home__header__section__p{
+    overflow: hidden;
+}
+.home__header__section__p__mano{
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+.home__header__section__lista1{
+    font-family: 'Roboto', sans-serif;
+    font-size:small;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.home__header__section__lista2{
+    font-family: 'Roboto', sans-serif;
+    font-size:small;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.home__header__div__burguer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 0px;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+/*MAIN*/
+
+.home__main__section h2{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.home__main__section__precio{
+    font-size: 18px;
+}
+.home__main__section__descuento{
+    font-size: 16px;
+}
+.home__main__section h4{
+    font-size: 16px;
+}
+.home__main__section__info h2{
+    text-align: center;
+    font-size: 16px;
+}
+
+.home__main__section__info p{
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 12px;
+}
+
+
+
+.home__main__div__tarjeta{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.home__main__div__caja{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.home__main__div__seguridad{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*FOOTER*/
+.home__footer p{
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
