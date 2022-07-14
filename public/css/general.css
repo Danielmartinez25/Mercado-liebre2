@@ -8,6 +8,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    max-width: 1180px;
 }
 
 *{
@@ -31,5 +32,8 @@ ol, ul {
 
 p{
     font-family: 'Roboto', sans-serif;
-    font-size:small;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: var(--colorGrisOscuro);
 }
