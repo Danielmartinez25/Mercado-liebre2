@@ -1,129 +1,151 @@
 /*HEADER*/
-.home__header{
+.header__section{
     background-color: var(--colorAmarillo); 
     display: flex;
     flex-wrap: wrap;
-}
-.home__header img{
-    width: 150px;
-    padding: 20px 0 10px 20px;
-}
-.home__header__buscar{
-    margin-left: 20px;
-}
-.home__header__section__texto{
-    font-size: small;
-    padding: 10px 0 0 35px;
-}
-.home__header__section__lista1{
-    display: none;
-}
-.home__header__section__lista2{
-    display: none;
-}
-.home__header__div__burguer{
-    border: 1px solid rgb(0, 4, 255);
-    background: none;
-    color: #fff;
+    justify-content: space-around;
     padding: 10px;
-    margin: 20px 0px 30px 140px;
+}
+
+.header__section img{   
+    width: 50%;
+}
+
+.header__section__buscador{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    width: 40%;
+}
+
+#lupa{
+    margin: 10px 5px 5px 0;
+}
+
+.p{
+    padding: 10px 0 10px 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.header__section__nav{
+    display: none;
+}
+
+#header__burguer{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--colorCeleste);
+    color: white;
     border-radius: 5px;
 }
 
 
 /*MAIN*/
 
-.home__main{
+.main{
+background-color: var(--colorGrisClaro);    
+}
+
+.main__section{
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--colorGrisClaro);
+    justify-content: space-around;  
 }
-
-.home__main__div__banner{
-    display: none;
+.main__banner{
     width: 100%;
 }
 
-.home__main__section{
-    padding: 0 10px 0 10px;
-
-}
-.home__main__section__article img{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 100%;
-}
-
-
-
-.home__main__section h3{
+.main h3{
     font-size: 22px;
-    padding : 20px 5px 20px;
+    padding : 10px 5px 10px 15px;
 }
 
 
-.home__main__section__article__producto{
+.main__section__producto{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    background-color: #fff;
-    margin-bottom: 10px;
-    width: 100%;
+    background-color: #fff; 
+    margin-bottom: 20px;
+    width: 90%;
+    display:flex;
+    flex-wrap: wrap;
     
 }
-
-
-.home__main__section__article__producto__camion{
-    padding: 20px 0 20px 12px;
-    color: var(--colorVerde);
+.main__section__producto img{
+    width: 100%;
+    border-bottom: 1px solid var(--colorGrisClaro);
 }
+
+
+#camion{
+    margin-left: 80%;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-right: 0;
+    display: block;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+}  
 
 .precio{
     font-size: 18px;
 }
 
 .p2{
+    font-size: 16px;
     color: var(--colorVerde);
 }
 
-.home__main__section p{
+.main__section p{
     font-size : 18px;
     padding-left: 10px;
 }
 
 
-.home__main__section h5{
+.main__section h5{
     color: var(--colorGrisOscuro);
     font-size: 16px;
     padding: 20px 0 10px 10px;
 }
 
-.home__main__section__info{
-    margin-top: 10px;
+
+
+.main__section__info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
     background-color: #fff;
-    font-size: 12px;
+    font-size: 16px;
     width: 100%;
 }
 
-.home__main__section__info h3{
+.main__section__info h3{
     color: var(--colorGrisOscuro);
     font-size: 16px;
-    margin: 10px 0 0 40px;
-    
+   
 }
 
-
-.home__main__div__logos{
+#logos{
     color: var(--colorCeleste);
     font-size: 2em;
-    padding-top: 30px;
-    margin-left: 145px; 
+    padding: 40px 0 10px 0;
 }
-.home__main__section__info p{
+.main__section__info p{
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px 0 20px;
 }
 
 /*FOOTER*/
-.home__footer p{
+.footer p{
     font-size: 12px;
     padding: 15px 0 15px 10px;
 }
@@ -132,50 +154,82 @@
 /* TABLET */
 
 @media(min-width: 768px){
-    /* HEADER */
 
-    .home__header{
-      flex-direction: column;  
-    }
-    .home__header img{
-        width: 300px;
-    }
+/*HEADER*/
+.header__section{
+    padding: 20px 10px 0 0;
+    
+}
+.header__section img{
+    width: 35%;
+    padding-bottom: 10px;
+}
 
-    .home__header__section__texto{
-        margin-left: 220px;
-    }
+.header__section__buscador{
+    border-radius: 20px;
+    height: 40px;
+    width: 55%;
+}
 
-    .home__header__section__lista1{
-        padding-top: 50px;
-        padding-left: 10px;
-        display: inline;
-    }
-    .home__header__section__lista2{
-        padding-left: 10px;
-        display: inline;
-        padding-bottom: 20px;
-    }
+#lupa{
+    margin: 10px 10px 0 0;
+}
 
-    .home__header__div__burguer{
-        display: none;
-    }
-    /* MAIN */
+.p{
+    padding: 10px 0 10px 20px;
+    text-align: center;
+    font-size: 16px;
+}
 
-    .home__main__section__info{
-        display: flex;
-        flex-direction: column;
-    }
-    .home__main__div__logos{
-        justify-content: center;
-        margin-left: 350px;
-    }
-    .home__main__section__info h3{
-        justify-content: center;
-        margin-left: 250px;
-    }
-    .home__main__section__info p{
-        padding: 10px 20px 0 20px;
-    }
+#header__burguer{
+    display: none;
+}
+.header__section p{
+    padding: 0;
+}
+
+.header__section__nav{
+    display: block;
+    padding: 30px 0px 20px 0px;
+}
+
+.header__section__nav ul{
+    display: inline;
+    margin-right: 30px;
+}
+
+.header__section__nav li{
+    margin-left: 10px;
+    display: inline;
+}
+
+
+/* MAIN */
+.main__section{
+    padding: 20px;
+}
+
+.main h3{
+    font-size: 24px;
+    padding: 10px 0 0 5%;
+}
+
+.main__section__producto{
+    width: 45%;  
+}
+
+
+.main__section p{
+    font-size : 18px;
+    padding-left: 10px;
+}
+
+
+.main__section h5{
+    color: var(--colorGrisOscuro);
+    font-size: 20px;
+} 
+
 }
 
 /* DESKTOP */
@@ -183,46 +237,11 @@
 @media(min-width: 1024px){
 
     /* HEADER */
-    body p{
-        font-size: 16px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
 
     /* MAIN */
 
-    .home__main__section h3{
-        margin-left: 70px;
-        font-size: 24px;
-    }
-
-    .home__main__div__banner{
-        display: block;
-    }
-
-     .home__main__section__article img{
-        margin-left: 70px;
-    }
-    .home__main__section__article__producto{
-        margin-left: 70px;
-    } 
-
-    .home__main__div__logos{
-        width: 30px;
-        padding-left: 150px;
-    }
-    .home__main__section__info h3{
-        font-size: 24px;
-        padding-left: 90px;
-    }
-    .home__main__section__info p{
-        padding: 20px 50px 20px 60px;
-    }
-
-    .home__main__section__info{
-        margin-left: 20px;
-        margin-right: 20px;
+    .main__section__producto{
+        width: 22%;  
     }
     /* FOOTER */
 }
