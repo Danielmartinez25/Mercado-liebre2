@@ -1,0 +1,50 @@
+.login__main{
+    background-color: var(--colorGrisClaro);
+}
+
+.login__main h1{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 10px 20px 0;
+}
+
+.form__box__button{
+    padding: 0 30px 20px 20px;
+    
+}
+
+.login__button{
+    border: 1px solid var(--colorCeleste);
+    background-color: var(--colorCeleste);
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+}
+
+@media(min-width: 768px){
+    .login__main__section{
+        padding: 10px 50px 10px 50px;
+    }
+    .form__box__button{
+        padding: 0 60px 20px 20px;
+        
+    }
+}
+
+
+@media(min-width: 1024px){
+   .login__main__section{
+    padding: 10px 10% 10px 10%;
+} 
+.form__box__button{
+    padding: 10px 60px 20px 20px;
+    
+}
+.login__button{
+
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+}
+}
+

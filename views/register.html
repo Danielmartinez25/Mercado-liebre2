@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/15a2e4bbb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <section class="header__section"> 
+        <img src="/img/logo-mercado-liebre.svg" alt="">         
+        <input class="header__section__buscador" type="text" placeholder="Buscar productos, marcas" required>
+        <i id="lupa" class="fa-solid fa-magnifying-glass"></i>           
+        <p class="p"><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito</p>    
+        <i id="header__burguer" class="fa-solid fa-bars"></i>
+        <nav class="header__section__nav">
+            <ul >
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/register">Crea tu cuenta</a><i class="fa-solid fa-id-card"></i></li>
+                <li><a href="/login">Ingresa </a><i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="">Mis compras </a><i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+        </nav>
+    </section>  
+    </header>
+    <main class="register__main">
+        <h1>Crear cuenta</h1>
+        <section class="register__main__section">
+           <form action="">
+                <div class="form__box__barra">
+                    <label class="titulo">Nombre</label>
+                    <input class="input" type="text" name="usuario" placeholder="Nombre y apellido">
+                </div>
+                <div class="form__box__barra">
+                    <label class="titulo">Nombre de usuario</label>
+                    <input class="input" type="text" name="usuario" placeholder="Nombre de usuario">
+                </div>
+                <div class="form__box__barra">
+                    <label class="titulo">Ingrese e-mail</label>
+                    <input class="input" type="email" name="email" placeholder="E-mail">
+                </div>
+                <div class="form__box__barra">
+                    <label class="titulo">Crear contraseña</label>
+                    <input class="input" type="password" name="contraseña" placeholder="Crear contraseña">
+                </div>
+                <div class="form__box__barra">
+                    <label class="titulo">Confirmar contraseña</label>
+                    <input class="input" type="password" name="contraseña" placeholder="Confirmar contraseña">
+                </div>
+
+                <div class="form__box__barra">  
+                    <label class="titulo">Ingrese fecha de nacimiento</label>   
+                    <input class="input" type="date" name="fecha">
+                </div>
+                <div class="form__box__barra">
+                    <label class="titulo">Ingrese domicilio</label>
+                    <input class="input" type="text" name="domicilio" placeholder="Domicilio">
+                </div>
+
+                    <h4>Perfil de usuario</h4>
+
+                <div class="form__box__perfil">
+                    <label class="perfil"><input type="radio" name="tipo" value="Comprador"><span class="span__perfil">vendedor</span></label>
+                    <label class="perfil"><input type="radio" name="tipo" value="vendedor"><span class="span__perfil">Comprador</span></label>
+                </div>
+                <h4>Interes</h4>
+                <div class="form__box__interes">
+                    <label class="categorias"><input  type="checkbox" name="interes" value="producto"><span class="span__categorias">Electro</span></label>
+                    <label class="categorias"><input  type="checkbox" name="interes" value="producto"><span class="span__categorias">Moda</span></label>
+                    <label class="categorias"><input  type="checkbox" name="interes" value="producto"><span class="span__categorias">Hogar</span></label>
+                    <label class="categorias"><input  type="checkbox" name="interes" value="producto"><span class="span__categorias">Jugueteria</span></label>
+                    <label class="categorias"><input  type="checkbox" name="interes" value="producto"><span class="span__categorias">Vida sana</span></label>
+                <div>
+                <div class="form__box__barra"> 
+                    <label>Seleccione una imagen: </label>    
+                    <input class="img" type="file" name="foto" accept=".jpg" >
+                </div>
+                <div class="form__box__barra">
+                    <a href="/"><button class="button" type="submit">Enviar</button></a>
+                    <button class="button2" type="reset">Cancelar</button>    
+                </div>
+           </form>
+        </section>
+        <section class = "main__section__info">
+            <i id="logos" class="fa-solid fa-credit-card"></i>
+            <h3>Paga con tarjeta o en efectivo</h3>
+            <p>Con MercadoLiebreCash tenes descuentos sin interes con tarjeta o efectivo en puntos de pago ¡Y siempre es seguro!</p>
+            <i id="logos" class="fa-solid fa-gift"></i>
+            <h3>Envio gratis desde los $2500</h3>
+            <p>Con MercadoLiebreCash tenes descuentos sin interes con tarjeta o efectivo en puntos de pago ¡Y siempre es seguro!</p>
+                <i id="logos" class="fa-solid fa-user-shield"></i>
+            <h3>Seguridad de principio a fin</h3>
+            <p>Con MercadoLiebreCash tenes descuentos sin interes con tarjeta o efectivo en puntos de pago ¡Y siempre es seguro!</p>
+        </section>
+    </main>
+</body>
+</html>
